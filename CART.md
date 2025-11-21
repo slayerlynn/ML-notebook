@@ -7,9 +7,9 @@ CART(CLASSIFICATION AND REGRESSION TREE)是一种二叉树模型,是有监督的
   损失函数主要使用**基尼系数**或**信息增量**。
   
   $$
-  Gini = 1 - \sum p_k^2$,p_k指样本在k标签的概率
+  Gini = 1 - \sum p_k^2
   $$
-  
+
   $$
   Gain(D, A) = Entropy(D) - \sum_{v=1}^{V} \frac{|D_v|}{|D|} Entropy(D_v)
   $$

@@ -5,12 +5,15 @@ CART(CLASSIFICATION AND REGRESSION TREE)是一种二叉树模型,是有监督的
 - 分类树
   给定特征 𝑋，预测类别标签 𝑦，如（是/否，高/中/低）等标签。
   损失函数主要使用**基尼系数**或**信息增量**。
+  
   $$
   Gini = 1 - \sum p_k^2$,p_k指样本在k标签的概率
   $$
+  
   $$
   Gain(D, A) = Entropy(D) - \sum_{v=1}^{V} \frac{|D_v|}{|D|} Entropy(D_v)
   $$
+  
 - 回归树
 
 ## 2. 核心思想

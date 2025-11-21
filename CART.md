@@ -19,7 +19,7 @@ CART(CLASSIFICATION AND REGRESSION TREE)是一种二叉树模型,是有监督的
   损失函数主要使用**MSE**。
 
   $$
-  MSE=\frac{1}{V} \sum_{v=1}{V}(y_v-\hat{y}_v)^2
+  MSE=\frac{1}{V} \sum_{v=1}^{V}(y_v-\hat{y}_v)^2
   $$
 
 ## 2. 核心思想

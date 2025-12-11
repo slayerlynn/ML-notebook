@@ -34,7 +34,7 @@ GAIN =
 
   Sigmoid函数（逻辑回归激活函数）
 
-$$p(x) = \sigma(f(x)) = \frac{1}{1 + e^{-f(x)}}$$
+  $$p(x) = \sigma(f(x)) = \frac{1}{1 + e^{-f(x)}}$$
   
   损失函数:
 

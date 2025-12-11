@@ -31,6 +31,7 @@ $$
 
 GAIN = 
 - sigmoid(二分类）
+
 1.Sigmoid函数
 
 $$p(x) = \sigma(f(x)) = \frac{1}{1 + e^{-f(x)}}$$

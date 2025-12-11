@@ -31,10 +31,8 @@ $$
 
 GAIN = 
 - sigmoid(二分类）
-以下是可直接复制粘贴到文档中的 **Markdown格式完整内容**，包含公式、文字说明及排版，公式部分需确保文档编辑器支持LaTeX语法（如Typora、Notion、CSDN、GitHub等主流平台均兼容）：
+Sigmoid函数（逻辑回归激活函数）
 
-### Sigmoid函数（逻辑回归激活函数）
-#### 1. 核心公式
 $$p(x) = \sigma(f(x)) = \frac{1}{1 + e^{-f(x)}}$$
 
 #### 2. 各符号含义解析

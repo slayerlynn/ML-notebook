@@ -24,13 +24,17 @@ $$
 
 ## 2. 损失函数
 - 基尼系数（二分类）
-  $$
-  Gini = 1 - \sum p_k^2
-  $$
+
+$$
+Gini = 1 - \sum p_k^2
+$$
+
 - MSE（回归）
-  $$
-  MSE=\frac{1}{V} \sum_{v=1}^{V}(y_v-\hat{y}_v)^2
-  $$
+
+$$
+MSE=\frac{1}{V} \sum_{v=1}^{V}(y_v-\hat{y}_v)^2
+$$
+  
 - 交叉熵+softmax(多分类）
   
 

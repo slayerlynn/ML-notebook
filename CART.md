@@ -35,9 +35,14 @@ GAIN =
   Sigmoid函数（逻辑回归激活函数）
 
 $$p(x) = \sigma(f(x)) = \frac{1}{1 + e^{-f(x)}}$$
+  
   损失函数:
 
   $$L(y,f(x)) = -[y\log(p)+(1-y)\log(1-p)] $$
+
+  对f(x)求一阶梯度后:
+
+  $$\frac{\alpha L(y,f(x))}{\alpha f(x)}$$
 
 
 - MSE（回归）

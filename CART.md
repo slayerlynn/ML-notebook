@@ -42,7 +42,11 @@ $$p(x) = \sigma(f(x)) = \frac{1}{1 + e^{-f(x)}}$$
 
   对f(x)求一阶梯度后:
 
-  $$\frac{\alpha L(y,f(x))}{\alpha f(x)}$$
+  $$\frac{\partial L(y,f(x))}{\partial f(x)}=-[y-p(x)]$$
+
+  对f(x)求二阶梯度：
+
+  $$\frac{\partial^2 L(y,f(x))}{\partial f(x)^2}=p(1-p)$$
 
 
 - MSE（回归）

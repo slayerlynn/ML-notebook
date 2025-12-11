@@ -35,6 +35,9 @@ GAIN =
   Sigmoid函数（逻辑回归激活函数）
 
 $$p(x) = \sigma(f(x)) = \frac{1}{1 + e^{-f(x)}}$$
+  损失函数:
+
+  $$L(y,f(x)) = -[y\log(p)+(1-y)\log(1-p)] $$
 
 
 - MSE（回归）
